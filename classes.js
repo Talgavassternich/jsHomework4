@@ -1,8 +1,9 @@
 class Animal {
+    #name
     constructor(name) {
-        this._name = name;
+        this.#name = name;
     }
-    get name() {return this._name}
+    get name() {return this.#name}
 }
 class Dog extends Animal {
     constructor(name) {
