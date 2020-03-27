@@ -1,3 +1,3 @@
 export default function pressButton() {
-    alert("Button is clicked!");
+    alert("Hello World");
 }
